@@ -2,7 +2,7 @@
 
 import styles from '../styles/Home.module.scss';
 import { Typewriter } from 'nextjs-simple-typewriter';
-import { BsLinkedin, BsGithub, BsGoogle } from 'react-icons/bs';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 // import Image from 'next/image';
 import Link from 'next/link';
 
