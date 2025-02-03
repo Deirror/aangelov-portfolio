@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 8px; /* Change scrollbar thickness */
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark background */
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #57B0C7, #276891); /* Gradient color */
+  border-radius: 10px; /* Rounded edges */
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b8bb9; /* Slightly brighter on hover */
+}
