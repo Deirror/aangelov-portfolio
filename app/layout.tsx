@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Offical Website - Alex Angelov",
+  title: "Alex Angelov's Website",
   description: "Personal Portfolio 2025",
 };
 
