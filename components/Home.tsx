@@ -13,10 +13,10 @@ const Home = () => {
                 <div className={styles.greeting}>Hello there! It&apos;s me</div>
                 <div className={styles.name}>
                     <Typewriter
-                        words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go and Java Enthusiast', 'C/C++/C# Hobby Programmer']}
+                        words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go/Java Enthusiast', 'C/C++/C# Programmer']}
                         loop={0}
                         cursor
-                        cursorStyle="_"
+                        cursorStyle="█"
                         typeSpeed={121}
                         deleteSpeed={50}
                         delaySpeed={1000}
