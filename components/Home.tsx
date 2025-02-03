@@ -14,7 +14,7 @@ const Home = () => {
                         words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go/Java Enthusiast', 'C/C++/C# Coder']}
                         loop={0}
                         cursor
-                        cursorStyle="▌"
+                        cursorStyle="|"
                         typeSpeed={121}
                         deleteSpeed={50}
                         delaySpeed={1000}
