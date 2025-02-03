@@ -1,9 +1,10 @@
 .navbar {
     height: 10vh;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: auto auto;//
     align-items: center;
     justify-content: space-between;
+    padding: 0 2vw;//
 
     .portfolio {
         margin-left: 4vw;
@@ -12,8 +13,9 @@
         letter-spacing: 2px;
     }
 
-    .cv {
-        margin-right: 4vw;
+    .resume {
+        display: flex;
+        align-items: center;
     }
 
     .socialMedia {

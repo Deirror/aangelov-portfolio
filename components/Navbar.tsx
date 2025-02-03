@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
             </div>
                 <Link href="/documents/ng.pdf"
-                    download="Alex_Angelov_CV" className={styles.cv}>
+                    download="Alex_Angelov_CV" className={styles.resume}>
                     <button className={styles.resumeButton}>Resume</button>
                 </Link>
             </div>
