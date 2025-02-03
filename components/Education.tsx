@@ -19,7 +19,7 @@ const Education = () => {
                 <div className={styles.educationCard}>
                     <div className={styles.info}>
                         <Link className={styles.link} href="https://ivanvazov.com/" target="_blank">
-                            <div className={styles.institutionTitle}>31 High School"</div>
+                            <div className={styles.institutionTitle}>31 High School</div>
                         </Link>
                         <div className={styles.materialTitle}>Mathematics & Physics</div>
                     </div>
