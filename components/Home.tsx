@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 <div className={styles.position}>B.Sc. in Software Engineering</div>
                 <div className={styles.description}>
-                    I have been a software developer for 3 years, keen on making web servers, desktop applications and programs with CLI.
+                    I have been a software developer for 3 years, keen on making software projects including web servers, microservices, desktop apps and programs with CLI.
                 </div>
             </div>
         </div>
