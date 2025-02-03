@@ -10,13 +10,13 @@ const Home = () => {
     return (
         <div className={styles.container}>
             <div className={styles.bioInfo}>
-                <div className={styles.greeting}>Hello there! It&apos;s me</div>
+                <div className={styles.greeting}>Hello there! I&apos;m</div>
                 <div className={styles.name}>
                     <Typewriter
                         words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go/Java Enthusiast', 'C/C++/C# Coder']}
                         loop={0}
                         cursor
-                        cursorStyle="_"
+                        cursorStyle="|"
                         typeSpeed={121}
                         deleteSpeed={50}
                         delaySpeed={1000}
