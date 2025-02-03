@@ -1,0 +1,23 @@
+{
+    "presets": [
+        [
+            "next/babel",
+            {
+                "styled-jsx": {
+                    "plugins": [
+                        "@styled-jsx/plugin-sass"
+                    ]
+                },
+                "preset-react": {
+                    "throwIfNamespace": false
+                }
+            },
+            "@babel/preset-typescript"
+        ]
+    ],
+    "env": {
+        "development": {
+            "compact": true
+        }
+    }
+}
