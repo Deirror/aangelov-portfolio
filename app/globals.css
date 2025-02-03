@@ -38,5 +38,5 @@ body {
 
 /* Scrollbar handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #3b8bb9; /* Slightly brighter on hover */
+  background: #31ae80; /* Slightly brighter on hover */
 }
