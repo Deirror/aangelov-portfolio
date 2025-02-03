@@ -30,8 +30,8 @@ const Home = () => {
                 className={styles.profileImage}
                 src={profileImgage}
                 priority={true}
-                height={300}
-                width={250}
+                height={344}
+                width={300}
                 alt="Alex Angelov" />
         </div>
     );
