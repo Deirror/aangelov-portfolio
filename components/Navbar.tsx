@@ -7,7 +7,7 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 const Navbar = () => {
     return (
         <div className={styles.navbar}>
-            <div className={styles.portfolio}>Portfolio © 2025</div>
+            <div className={styles.portfolio}>Portfolio © 202x`x`5</div>
             <div className={styles.menuContainer}>
             <div className={styles.socialMedia}>
                 <div className={styles.icon}>
