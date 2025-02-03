@@ -13,8 +13,14 @@ const Home = () => {
                 <div className={styles.greeting}>Hello there! It&apos;s me</div>
                 <div className={styles.name}>
                     <Typewriter
-                        words={['Alex Angelov']}
-                        typeSpeed={144} />
+                        words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go and Java Enthusiast', 'C/C++/C# Hobby Programmer']}
+                        loop={0}
+                        cursor
+                        cursorStyle="_"
+                        typeSpeed={121}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                    />
                 </div>
                 <div className={styles.position}>B.Sc. in Software Engineering</div>
                 <div className={styles.description}>

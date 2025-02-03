@@ -12,16 +12,19 @@
         letter-spacing: 2px;
     }
 
+    .title {
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
     .menuContainer {
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-right: 4vw;
-
-        .darkModeToggle {
-            font-size: 20px;
-            cursor: pointer;
-        }
 
         .resumeButton {
             height: 40px;

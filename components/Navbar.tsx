@@ -7,6 +7,7 @@ const Navbar = () => {
     return (
         <div className={styles.navbar}>
             <div className={styles.portfolio}>Portfolio © 2025</div>
+            <div className={styles.title}>Alex Angelov</div>
             <div className={styles.menuContainer}>
                 <Link href="/documents/ng.pdf"
                     download="Alex_Angelov_CV">
