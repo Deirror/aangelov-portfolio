@@ -10,7 +10,7 @@ const Education = () => {
                 <div className={styles.educationCard}>
                     <div className={styles.info}>
                         <Link className={styles.link} href="https://www.uni-sofia.bg/index.php/bul" target="_blank">
-                            <div className={styles.institutionTitle}>Sofia University "St. Kliment Ohridski"</div>
+                            <div className={styles.institutionTitle}>Sofia University St. Kliment Ohridski</div>
                         </Link>
                         <div className={styles.materialTitle}>BSc Software Engineering | Faculty of Mathematics and Informatics</div>
                     </div>
@@ -19,7 +19,7 @@ const Education = () => {
                 <div className={styles.educationCard}>
                     <div className={styles.info}>
                         <Link className={styles.link} href="https://ivanvazov.com/" target="_blank">
-                            <div className={styles.institutionTitle}>31 High School "Ivan Vazov"</div>
+                            <div className={styles.institutionTitle}>31 High School"</div>
                         </Link>
                         <div className={styles.materialTitle}>Mathematics & Physics</div>
                     </div>
