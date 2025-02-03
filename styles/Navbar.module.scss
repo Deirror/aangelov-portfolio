@@ -7,9 +7,21 @@
 
     .portfolio {
         margin-left: 4vw;
-        font-size: 16px;
+        font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 2px;
+    }
+
+    .socialMedia {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 4vh auto;
+
+        .icon {
+            font-size: 24px;
+            -webkit-tap-highlight-color: transparent;
+            cursor: pointer;
+        }
     }
 
     .menuContainer {
@@ -33,6 +45,11 @@
             cursor: pointer;
         }
     }
+}
+
+.link {
+    color: #EBF7FF;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 450px) {

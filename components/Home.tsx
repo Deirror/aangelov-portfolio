@@ -2,9 +2,7 @@
 
 import styles from '../styles/Home.module.scss';
 import { Typewriter } from 'nextjs-simple-typewriter';
-import { BsLinkedin, BsGithub } from 'react-icons/bs';
 // import Image from 'next/image';
-import Link from 'next/link';
 
 const Home = () => {
     return (
@@ -25,18 +23,6 @@ const Home = () => {
                 <div className={styles.position}>B.Sc. in Software Engineering</div>
                 <div className={styles.description}>
                     None so far
-                </div>
-                <div className={styles.socialMedia}>
-                    <div className={styles.icon}>
-                        <Link className={styles.link} href="https://www.linkedin.com/in/s" target="_blank">
-                            <BsLinkedin />
-                        </Link>
-                    </div>
-                    <div className={styles.icon}>
-                        <Link className={styles.link} href="https://github.com/Deirror" target="_blank">
-                            <BsGithub />
-                        </Link>
-                    </div>
                 </div>
             </div>
         </div>
