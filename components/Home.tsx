@@ -14,7 +14,7 @@ const Home = () => {
                         words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go/Java Enthusiast', 'C/C++/C# Coder']}
                         loop={0}
                         cursor
-                        cursorStyle="|"
+                        cursorStyle="▌"
                         typeSpeed={121}
                         deleteSpeed={50}
                         delaySpeed={1000}
@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 <div className={styles.position}>B.Sc. in Software Engineering</div>
                 <div className={styles.description}>
-                    None so far
+                    To Do
                 </div>
             </div>
         </div>
