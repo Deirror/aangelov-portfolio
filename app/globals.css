@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #15001b;
+    --background: #0d0310;
     --foreground: #ededed;
   }
 }
