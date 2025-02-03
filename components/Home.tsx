@@ -13,10 +13,10 @@ const Home = () => {
                 <div className={styles.greeting}>Hello there! It&apos;s me</div>
                 <div className={styles.name}>
                     <Typewriter
-                        words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go/Java Enthusiast', 'C/C++/C# Programmer']}
+                        words={['Software Engineer', 'Backend Developer', 'Problem Solver', 'Go/Java Enthusiast', 'C/C++/C# Coder']}
                         loop={0}
                         cursor
-                        cursorStyle="█"
+                        cursorStyle="_"
                         typeSpeed={121}
                         deleteSpeed={50}
                         delaySpeed={1000}
@@ -37,7 +37,6 @@ const Home = () => {
                             <BsGithub />
                         </Link>
                     </div>
-                    <div className={styles.icon}><BsGoogle /></div>
                 </div>
             </div>
         </div>
