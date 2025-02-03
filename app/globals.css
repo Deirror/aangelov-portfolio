@@ -32,7 +32,7 @@ body {
 
 /* Scrollbar handle */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #57B0C7, #276891); /* Gradient color */
+  background: linear-gradient(45deg, #57c798, #279151); /* Gradient color */
   border-radius: 10px; /* Rounded edges */
 }
 
