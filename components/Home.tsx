@@ -2,7 +2,7 @@
 
 import styles from '../styles/Home.module.scss';
 import { Typewriter } from 'nextjs-simple-typewriter';
-import profileImgage from '../images/sg_aa.png';
+import profileImgage from '../images/aa.png';
 import Image from 'next/image';
 
 const Home = () => {
@@ -30,8 +30,8 @@ const Home = () => {
                 className={styles.profileImage}
                 src={profileImgage}
                 priority={true}
-                height={450}
-                width={450}
+                height={300}
+                width={250}
                 alt="Alex Angelov" />
         </div>
     );
