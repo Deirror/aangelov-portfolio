@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from '../components/Navbar';
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -6,12 +7,13 @@ export const metadata: Metadata = {
   description: "Personal Portfolio 2025",
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html>
       <body>
-        {children}
+        <Navbar />
+          <main>{children}</main>
       </body>
     </html>
   );
-}
+};
