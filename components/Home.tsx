@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 <div className={styles.position}>B.Sc. in Software Engineering</div>
                 <div className={styles.description}>
-                    To Do
+                    
                 </div>
             </div>
         </div>
