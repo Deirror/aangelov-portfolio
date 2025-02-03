@@ -1,3 +1,5 @@
+'use client';
+
 import styles from '../styles/Home.module.scss';
 import { Typewriter } from 'nextjs-simple-typewriter';
 import { BsLinkedin, BsGithub, BsGoogle } from 'react-icons/bs';
