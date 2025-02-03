@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
                 <div className={styles.socialMedia}>
                     <div className={styles.icon}>
-                        <Link className={styles.link} href="https://www.linkedin.com/in/alex-alngelow-360977341" target="_blank">
+                        <Link className={styles.link} href="https://www.linkedin.com/in/s" target="_blank">
                             <BsLinkedin />
                         </Link>
                     </div>
@@ -29,6 +29,7 @@ const Home = () => {
                             <BsGithub />
                         </Link>
                     </div>
+                    <div className={styles.icon}><BsGoogle /></div>
                 </div>
             </div>
         </div>
