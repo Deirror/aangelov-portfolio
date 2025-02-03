@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className={styles.container}>
             <div className={styles.bioInfo}>
-                <div className={styles.greeting}>Aloha, It's me</div>
+                <div className={styles.greeting}>Aloha, It&apos;s me</div>
                 <div className={styles.name}>
                     <Typewriter
                         words={['Alex Angelov']}
