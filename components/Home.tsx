@@ -2,7 +2,7 @@
 
 import styles from '../styles/Home.module.scss';
 import { Typewriter } from 'nextjs-simple-typewriter';
-import profileImgage from '../images/go10th.png';
+import profileImgage from '../images/sg_aa.png';
 import Image from 'next/image';
 
 const Home = () => {
