@@ -2,7 +2,8 @@
 
 import styles from '../styles/Home.module.scss';
 import { Typewriter } from 'nextjs-simple-typewriter';
-// import Image from 'next/image';
+import profileImgage from '../images/go10th.png';
+import Image from 'next/image';
 
 const Home = () => {
     return (
@@ -25,6 +26,13 @@ const Home = () => {
                     I am Alex Angelov and have been a software developer for 3 years who is keen on making software projects including web servers, microservices, desktop applications and programs with CLI.
                 </div>
             </div>
+             <Image
+                className={styles.profileImage}
+                src={profileImgage}
+                priority={true}
+                height={450}
+                width={450}
+                alt="Alex Angelov" />
         </div>
     );
 };
