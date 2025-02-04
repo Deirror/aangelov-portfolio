@@ -21,7 +21,7 @@ const Skills = () => {
                 <SiGo
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
+                        fontSize: '7rem'
                     }} />
                 <SiHtmx
                     className={styles.card}
