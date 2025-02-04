@@ -28,7 +28,8 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr); // 5 cards per row
         grid-template-rows: repeat(2, auto); // Two rows
-        grid-gap: 1rem;
+        row-gap: 1rem;
+        column-gap: 0.5rem;
         align-items: center;
         justify-items: center;
         justify-content: center;
