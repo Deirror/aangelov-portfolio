@@ -25,8 +25,8 @@ const Certification = () => {
 
     return (
         <div className={styles.certificationContainer}>
-            <div className={styles.line}></div>
-            <div className={styles.title}>Certifications & Courses</div>
+            //<div className={styles.line}></div>
+            <div className={styles.title}>Certifications and courses</div>
 
             <div style={{
                 marginLeft: '8.33333333%',
@@ -239,7 +239,7 @@ const Certification = () => {
                     &::before {
                         content: "";
                         display: block;
-                        background: #57B0C7;
+                        background: #94ebbb;
                         border: 3px solid transparent;
                         border-radius: 100%;
                         height: 15px;
@@ -267,7 +267,7 @@ const Certification = () => {
 
                 .timeline-item:not(.period):hover .timeline-marker::before {
                     background: transparent;
-                    border: 3px solid #57B0C7;
+                    border: 3px solid #94ebbb;
                 }
 
                 .timeline-content {
@@ -428,12 +428,12 @@ const Certification = () => {
                     .timeline-marker {
                         &::before {
                             background: transparent;
-                            border-color: #57B0C7;
+                            border-color: #94ebbb;
                         }
                     }
 
                     .timeline-item:hover .timeline-marker::before {
-                        background: #57B0C7;
+                        background: #94ebbb;
                     }
                 }
             `}</style>
