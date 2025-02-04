@@ -47,7 +47,7 @@ const Certification = () => {
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h3 className="timeline-title">Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
+                            <h3 className={styles.custtitle}>Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
                             <div>
                                 Achieved  deep understanding on complex fields
                                 of Mathematics and Programming<br />
@@ -65,7 +65,7 @@ const Certification = () => {
                         <div className="timeline-info"></div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h2 className={styles.title}>2022</h2>
+                            <h2 className={styles.custtitle}>2022</h2>
                         </div>
                     </li>
                     <li className="timeline-item">
