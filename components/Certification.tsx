@@ -50,13 +50,11 @@ const Certification = () => {
                             <h3 className="timeline-title">Mathematics | Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
                             <div>
                                 Attained deep understanding on complex fields
-                                of Mathematics such as Stereometry, Geometry,
-                                Differential Equations, Calculus and Probability <br />
+                                of Mathematics and Programming<br />
                                 Thanks to the perfect guidance by the
-                                associate professors Yulian Tsankov and
-                                Nikolay Ivanov and my dedication to succeed,
-                                I managed to pass my exams in Mathematics 
-                                with flying colours <br />
+                                associate lector Angel Dimitriev and the assistents
+                                Kristian Todorov and Stoycho Kyosev, and my dedication to succeed,
+                                I managed to pass my exams in Mathematics and Informatics<br />
                                 Established strong friendships with fellow
                                 colleagues to further pave my way to
                                 academic and career success
