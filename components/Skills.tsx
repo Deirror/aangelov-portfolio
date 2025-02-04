@@ -19,65 +19,29 @@ const Skills = () => {
             </div>
             <div className={styles.skillsCards}>
                 <SiGo
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />
+                    className={styles.card} />
                 <SiHtmx
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />
+                    className={styles.card}/>
                 <SiTailwindcss
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />
+                    className={styles.card}/>
                 <SiDocker
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />    
+                    className={styles.card}/>    
                 <SiPostgresql
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} /> 
+                    className={styles.card}/> 
                 <SiGooglecloud
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />     
+                    className={styles.card}/>     
                 <SiCplusplus
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />      
+                    className={styles.card}/>      
                 <SiDotnet
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />
+                    className={styles.card}/>
                 <SiBlazor
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />    
+                    className={styles.card}/>    
                 <SiGit
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />
+                    className={styles.card}/>
                 <SiOpenjdk
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />    
+                    className={styles.card}/>    
                 <SiSpring
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
-                    }} />    
+                    className={styles.card}/>    
             </div>
         </div>
     );
