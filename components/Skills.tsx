@@ -1,4 +1,4 @@
-import { SiJavascript, SiNodedotjs, SiReact, SiVuedotjs, SiCplusplus, SiPython, SiNextdotjs, SiGit } from 'react-icons/si';
+import { SiGo, SiHtmx, SiTailwindcss, SiDotnet, SiCplusplus, SiGit, SiOpenjdk } from 'react-icons/si';
 import styles from '../styles/Skills.module.scss';
 
 const Skills = () => {
@@ -18,46 +18,46 @@ const Skills = () => {
                 make a lasting impact in the world of technology.
             </div>
             <div className={styles.skillsCards}>
-                <SiJavascript
+                <SiGo
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
+                        fontSize: '4rem'
                     }} />
-                <SiReact
+                <SiHtmx
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
+                        fontSize: '4rem'
                     }} />
-                <SiVuedotjs
+                <SiTailwindcss
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
+                        fontSize: '4rem'
                     }} />
-                <SiNodedotjs
+                <SiDotnet
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
+                        fontSize: '4rem'
                     }} />
                 <SiCplusplus
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
+                        fontSize: '4rem'
                     }} />
-                <SiNextdotjs
+                <SiCplusplus
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
-                    }} />
-                <SiPython
-                    className={styles.card}
-                    style={{
-                        fontSize: '5rem'
+                        fontSize: '4rem'
                     }} />
                 <SiGit
                     className={styles.card}
                     style={{
-                        fontSize: '5rem'
+                        fontSize: '4rem'
                     }} />
+                <SiOpenjdk
+                    className={styles.card}
+                    style={{
+                        fontSize: '4rem'
+                    }} />    
             </div>
         </div>
     );
