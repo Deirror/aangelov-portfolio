@@ -91,14 +91,13 @@ const Certification = () => {
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h3 className="timeline-title">JavaScript Advanced | Software University</h3>
+                            <h3 className={styles.custtitle}>Systema Turismo | Arduino C++</h3>
                             <div>
-                                Single Page Applications <br />
-                                Asynchronous Programming <br />
-                                Unit Testing and Error Handling | Mocha & Chai <br />
-                                DOM Manipulations and Events <br />
-                                Objects and Composition | Classes <br />
-                                Algorithms and Data Structures
+                                Two weeks Arduino course in Rimini, Italy<br />
+                                Learn basic concepts in C++<br />
+                                Learn how Arduino works<br />
+                                Write code for Arduino Board<br />
+                                Pass the course be creating a Arduino project for traffic light<br />
                             </div>
                         </div>
                     </li>
