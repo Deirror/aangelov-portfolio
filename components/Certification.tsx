@@ -22,7 +22,7 @@ const Certification = () => {
             observer.observe(barItem);
         });
     }, []);
-//  <div className={styles.lineEnd}></div>
+
     return (
         <div className={styles.certificationContainer}>
             <div className={styles.line}></div>
