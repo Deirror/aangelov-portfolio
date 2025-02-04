@@ -26,7 +26,7 @@ const Certification = () => {
     return (
         <div className={styles.certificationContainer}>
             <div className={styles.line}></div>
-            <div className={styles.title}>Certifications & Courses</div>
+            <div className={styles.title}>Certifications and courses</div>
 
             <div style={{
                 marginLeft: '8.33333333%',
