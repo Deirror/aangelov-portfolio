@@ -47,7 +47,7 @@ const Certification = () => {
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h3 className="timeline-title">Mathematics | Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
+                            <h3>Mathematics | Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
                             <div>
                                 Attained deep understanding on complex fields
                                 of Mathematics such as Stereometry, Geometry,
