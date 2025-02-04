@@ -46,7 +46,7 @@ const Certification = () => {
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h3 className="timeline-title">Mathematics | Sofia University "St. Kliment Ohridski", Faculty of Mathematics and Informatics</h3>
+                            <h3 className="timeline-title">Mathematics | Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
                             <div>
                                 Attained deep understanding on complex fields
                                 of Mathematics such as Stereometry, Geometry,
@@ -88,65 +88,6 @@ const Certification = () => {
                     </li>
                     <li className="timeline-item">
                         <div className="timeline-info">
-                            <span>June 2022</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">C1 Advanced English | Cambridge Assessment English</h3>
-                            <div>
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Overall Score | 200 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={0} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Reading | 193 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={1} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Use of English | 210 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={2} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Writing | 203 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={3} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Listening | 190 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={4} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Speaking | 200 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={5} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
                             <span>October 2021 - June 2022</span>
                         </div>
                         <div className="timeline-marker"></div>
@@ -155,17 +96,6 @@ const Certification = () => {
                             <div>
                                 Orchestrated and streamlined our assignments,
                                 ensuring efficient coordination and seamless
-                                collaboration among team members during the
-                                event "Weekend of Ideas 2022" in "Teenovator 2022" <br />
-                                Developed, in collaboration with another
-                                team member, a robust login system for the
-                                final event of "Teenovator 2022", held at Sofia Tech
-                                Park, in order to guarantee the coherent flow of the event <br />
-                                Facilitated the successful continuation of
-                                "Teenovator 2022" by providing guests and
-                                participants with all the information they need <br />
-                                Handled unforeseen situations by implementing
-                                my problem-solving abilities
                             </div>
                         </div>
                     </li>
@@ -205,15 +135,7 @@ const Certification = () => {
                                 Attained broad understanding on the complex fields
                                 of marketing, SWAT analysis, business planning
                                 and financial projections during the
-                                development of startup projects <br />
-                                Enhanced my leadership skills by delegating
-                                responsibilities and facilitating effective
-                                communication channels, fostering a cohesive and
-                                productive work environment <br />
-                                Won the prize "Most innovative idea" during
-                                the event "Weekend of Ideas 2021" by presenting
-                                a project concerned with the ever-increasing
-                                pollution around our planet in Low Earth Orbit
+                                development of startup projects
                             </div>
                         </div>
                     </li>
