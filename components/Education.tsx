@@ -5,8 +5,10 @@ const Education = () => {
     return (
         <div className={styles.educationContainer}>
 
-            <div className={styles.line}></div>
+            <div>
+            <div className={styles.line}></div> 
             <div className={styles.title}>Education</div>
+            </div>
 
             <div className={styles.education}>
                 <div className={styles.educationCard}>
