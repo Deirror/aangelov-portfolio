@@ -94,198 +94,25 @@ const Certification = () => {
                             <h3 className={styles.custtitle}>Systema Turismo | Arduino C++</h3>
                             <div>
                                 Two weeks Arduino course in Rimini, Italy<br />
-                                Learn basic concepts in C++<br />
-                                Learn how Arduino works<br />
-                                Write code for Arduino Board<br />
-                                Pass the course be creating a Arduino project for traffic light<br />
+                                Learned basic concepts in C++<br />
+                                Learned how Arduino works<br />
+                                Wrote code for Arduino Board<br />
+                                Passed the course by creating a Arduino project for traffic light<br />
+                                Recieved a certification for Arduino C++<br />
                             </div>
                         </div>
                     </li>
                     <li className="timeline-item">
                         <div className="timeline-info">
-                            <span>June 2022</span>
+                            <span>June 2022 - July 2023</span>
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h3 className="timeline-title">C1 Advanced English | Cambridge Assessment English</h3>
+                            <h3 className={styles.custtitle}>ICT Center | C# Advanced Course</h3>
                             <div>
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Overall Score | 200 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={0} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Reading | 193 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={1} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Use of English | 210 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={2} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Writing | 203 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={3} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Listening | 190 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={4} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div> <br />
-                                <div className={styles.skillsItem}>
-                                    <div className={styles.skillsHeader}>Speaking | 200 / 210</div>
-                                    <div className={styles.skillBar}>
-                                        <div className={styles.barInner}>
-                                            <div id="bar" data-index={5} className={styles.bar}></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2021 - June 2022</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Teenovator 2022 | Voluntary Work</h3>
-                            <div>
-                                Orchestrated and streamlined our assignments,
-                                ensuring efficient coordination and seamless
-                                collaboration among team members during the
-                                event &quot;Weekend of Ideas 2022&quot; in &quot;Teenovator 2022&quot; <br />
-                                Developed, in collaboration with another
-                                team member, a robust login system for the
-                                final event of &quot;Teenovator 2022&quot;, held at Sofia Tech
-                                Park, in order to guarantee the coherent flow of the event <br />
-                                Facilitated the successful continuation of
-                                &quot;Teenovator 2022&quot; by providing guests and
-                                participants with all the information they need <br />
-                                Handled unforeseen situations by implementing
-                                my problem-solving abilities
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item period">
-                        <div className="timeline-info"></div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h2 className="timeline-title">2021</h2>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>May 2021</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Programming Fundamentals with JavaScript | Software University</h3>
-                            <div>
-                                Software Development Concepts <br />
-                                Associative and Advanced Arrays <br />
-                                Objects and Classes <br />
-                                Git and GitHub <br />
-                                Regular Expressions and Text Processing <br />
-                                QA Introduction <br />
-                                Basic Syntax, Conditional Statements and Loops
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2020 - June 2021</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Teenovator 2021</h3>
-                            <div>
-                                Attained broad understanding on the complex fields
-                                of marketing, SWAT analysis, business planning
-                                and financial projections during the
-                                development of startup projects <br />
-                                Enhanced my leadership skills by delegating
-                                responsibilities and facilitating effective
-                                communication channels, fostering a cohesive and
-                                productive work environment <br />
-                                Won the prize &quot;Most innovative idea&quot; during
-                                the event &quot;Weekend of Ideas 202&quot;1 by presenting
-                                a project concerned with the ever-increasing
-                                pollution around our planet in Low Earth Orbit
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>February 2021</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">News Media Literacy Training | American Councils</h3>
-                            <div>
-                                Trained on diverse topics such as disinformation
-                                and identification of untrustworthy sources
-                                of information <br />
-                                Emphasized on the hardly distinguishable
-                                characteristics of disinformation, fake news
-                                and propaganda <br />
-                                Exchanged experience with fellow students and
-                                developed friendships to further investigate
-                                the uncontrolled spread of fake news
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item period">
-                        <div className="timeline-info"></div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h2 className="timeline-title">2019 - 2020</h2>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2019 - June 2020</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Web Development | Telerik Academy School</h3>
-                            <div>
-                                JavaScript Syntax, Conditional Statements and Loops <br />
-                                React.js <br />
-                                HTML5, CSS3, SCSS <br />
-                                jQuery <br />
-                                DOM Manipulations and Events
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2018 - April 2019</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Game Development | Telerik Academy School</h3>
-                            <div>
-                                JavaScript Syntax, Conditional Statements and Loops <br />
-                                Phaser.js and Node.js Server Setup <br />
-                                HTML5, CSS3
+                              An one year course in Kazanlak for learning C# from Beginner to Advanced, 
+                              HTML and CSS, SQL and working with SSMS and ASP.NET. <br />
+                              After passing this course, I got a certificate for C# Programmer.
                             </div>
                         </div>
                     </li>
