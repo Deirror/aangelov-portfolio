@@ -22,8 +22,7 @@ const Certification = () => {
             observer.observe(barItem);
         });
     }, []);
-//  <div className={styles.line}></div>
-// <div className={styles.title}>Certifications and courses</div>
+
     return (
         <div className={styles.certificationContainer}>
           
@@ -38,7 +37,7 @@ const Certification = () => {
                 marginTop: '4vh',
                 marginBottom: '1vh'
             }}>
-                 <div className={styles.title}>Certifications and courses</div>
+                <div className={styles.title}>Certifications and courses</div>
                 <ul className="timeline timeline-split timeline-centered">
                     <li className="timeline-item">
                         <div className="timeline-info">
