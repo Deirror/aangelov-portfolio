@@ -50,14 +50,14 @@ const Certification = () => {
                             <h3 className={styles.custtitle}>Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
                             <div>
                                 Achieved  deep understanding on complex fields
-                                of Mathematics and Programming<br />
+                                of Mathematics and Programming.<br />
                                 Thanks to the perfect guidance by the
                                 associate lector Angel Dimitriev and the assistents
                                 Kristian Todorov and Stoycho Kyosev, and my dedication to succeed,
-                                I managed to pass my exams in Mathematics and Informatics<br />
+                                I managed to pass my exams in Mathematics and Informatics.<br />
                                 Established strong friendships with fellow
                                 colleagues to further pave my way to
-                                academic and career success
+                                academic and career success.<br /> 
                             </div>
                         </div>
                     </li>
@@ -70,11 +70,11 @@ const Certification = () => {
                             <h3 className={styles.custtitle}>Internship in the company &quot;David Holding&quot;</h3>
                             <div>
                                 One month intership in the company &quot;David Holding&quot;, 
-                                located in the city Kazanlak
+                                located in the city Kazanlak.<br /> 
                                 There I was able to learn git and some vitable concepts 
-                                for managing software products
+                                for managing software products.<br /> 
                                 For passing this course, I made a website in ASP.NET 
-                                with Blazor Pages in C# which was about Library Managment System<br /> 
+                                with Blazor in C# which was about Library Managment System.<br /> 
                             </div>
                         </div>
                     </li>
