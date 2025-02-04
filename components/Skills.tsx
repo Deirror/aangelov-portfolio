@@ -6,7 +6,7 @@ const Skills = () => {
         <div className={styles.skillsContainer}>
             <div className={styles.line}></div>
             <div className={styles.title}>Skills and Tech Stack</div>
-            <div className={styles.line}></div>
+            
             <div className={styles.pitch}>
                 With a diverse set of skills ranging from data structures and algorithms to
                 project realization, I possess rich understanding in
