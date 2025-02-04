@@ -4,14 +4,16 @@ import Skills from '../components/Skills';
 //import Certification from '../components/Certification.tsx';
 //import Featured from '../components/Featured.tsx';
 //import Contact from '../components/Contact.tsx';
-//import Footer from '../components/Footer.tsx';
+import Footer from '../components/Footer';
 
 function App() {
   return (
     <main>
       <Home />
       <Skills />
+
       <Education />
+      <Footer />
     </main>
   );
 };
