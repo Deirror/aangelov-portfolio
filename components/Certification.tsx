@@ -25,7 +25,9 @@ const Certification = () => {
 
     return (
         <div className={styles.certificationContainer}>
-            <div className={styles.title}>Certifications and courses</div>
+            <div className={styles.line}></div>
+            <div className={styles.title}>Certifications & Courses</div>
+
             <div style={{
                 marginLeft: '8.33333333%',
                 width: '83.33333333%',
@@ -86,6 +88,65 @@ const Certification = () => {
                     </li>
                     <li className="timeline-item">
                         <div className="timeline-info">
+                            <span>June 2022</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">C1 Advanced English | Cambridge Assessment English</h3>
+                            <div>
+                                <div className={styles.skillsItem}>
+                                    <div className={styles.skillsHeader}>Overall Score | 200 / 210</div>
+                                    <div className={styles.skillBar}>
+                                        <div className={styles.barInner}>
+                                            <div id="bar" data-index={0} className={styles.bar}></div>
+                                        </div>
+                                    </div>
+                                </div> <br />
+                                <div className={styles.skillsItem}>
+                                    <div className={styles.skillsHeader}>Reading | 193 / 210</div>
+                                    <div className={styles.skillBar}>
+                                        <div className={styles.barInner}>
+                                            <div id="bar" data-index={1} className={styles.bar}></div>
+                                        </div>
+                                    </div>
+                                </div> <br />
+                                <div className={styles.skillsItem}>
+                                    <div className={styles.skillsHeader}>Use of English | 210 / 210</div>
+                                    <div className={styles.skillBar}>
+                                        <div className={styles.barInner}>
+                                            <div id="bar" data-index={2} className={styles.bar}></div>
+                                        </div>
+                                    </div>
+                                </div> <br />
+                                <div className={styles.skillsItem}>
+                                    <div className={styles.skillsHeader}>Writing | 203 / 210</div>
+                                    <div className={styles.skillBar}>
+                                        <div className={styles.barInner}>
+                                            <div id="bar" data-index={3} className={styles.bar}></div>
+                                        </div>
+                                    </div>
+                                </div> <br />
+                                <div className={styles.skillsItem}>
+                                    <div className={styles.skillsHeader}>Listening | 190 / 210</div>
+                                    <div className={styles.skillBar}>
+                                        <div className={styles.barInner}>
+                                            <div id="bar" data-index={4} className={styles.bar}></div>
+                                        </div>
+                                    </div>
+                                </div> <br />
+                                <div className={styles.skillsItem}>
+                                    <div className={styles.skillsHeader}>Speaking | 200 / 210</div>
+                                    <div className={styles.skillBar}>
+                                        <div className={styles.barInner}>
+                                            <div id="bar" data-index={5} className={styles.bar}></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
                             <span>October 2021 - June 2022</span>
                         </div>
                         <div className="timeline-marker"></div>
@@ -94,6 +155,17 @@ const Certification = () => {
                             <div>
                                 Orchestrated and streamlined our assignments,
                                 ensuring efficient coordination and seamless
+                                collaboration among team members during the
+                                event &quot;Weekend of Ideas 2022&quot; in &quot;Teenovator 2022&quot; <br />
+                                Developed, in collaboration with another
+                                team member, a robust login system for the
+                                final event of &quot;Teenovator 2022&quot;, held at Sofia Tech
+                                Park, in order to guarantee the coherent flow of the event <br />
+                                Facilitated the successful continuation of
+                                &quot;Teenovator 2022&quot; by providing guests and
+                                participants with all the information they need <br />
+                                Handled unforeseen situations by implementing
+                                my problem-solving abilities
                             </div>
                         </div>
                     </li>
@@ -133,7 +205,15 @@ const Certification = () => {
                                 Attained broad understanding on the complex fields
                                 of marketing, SWAT analysis, business planning
                                 and financial projections during the
-                                development of startup projects
+                                development of startup projects <br />
+                                Enhanced my leadership skills by delegating
+                                responsibilities and facilitating effective
+                                communication channels, fostering a cohesive and
+                                productive work environment <br />
+                                Won the prize &quot;Most innovative idea&quot; during
+                                the event &quot;Weekend of Ideas 202&quot;1 by presenting
+                                a project concerned with the ever-increasing
+                                pollution around our planet in Low Earth Orbit
                             </div>
                         </div>
                     </li>
@@ -166,7 +246,7 @@ const Certification = () => {
                     </li>
                     <li className="timeline-item">
                         <div className="timeline-info">
-                            <span>October 2019 / June 2020</span>
+                            <span>October 2019 - June 2020</span>
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
