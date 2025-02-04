@@ -14,7 +14,7 @@ const Footer = () => {
 
     return (
         <div className={styles.footer}>
-            <div className={styles.creator}>Designed and developed by me</div>
+            <div className={styles.creator}>Designed by me</div>
             <div className={styles.portfolioProgrammer}>Alex Angelov</div>
             <div id="btn" className={styles.toTop}>Back to top</div>
         </div>
