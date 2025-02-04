@@ -135,6 +135,10 @@
 
             // REMOVE CARD HIDING - Ensure all 10 cards fit properly
         }
+
+        .skillsCards .card svg {
+            font-size: 6rem; /* Increase the font size to make icons bigger */
+        }
     }
 }
 
