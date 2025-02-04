@@ -18,11 +18,17 @@
     }
 
     .toTop {
-        font-size: 14px;
+        font-size: 13px;
         justify-self: flex-end;
         margin-right: 4vw;
         -webkit-tap-highlight-color: transparent;
         cursor: pointer;
+    }
+
+    .creator, .toTop {
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 }
 
