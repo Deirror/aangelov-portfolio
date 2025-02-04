@@ -69,7 +69,7 @@ const Certification = () => {
                         <div className="timeline-content">
                             <h3 className={styles.custtitle}>Internship in the company &quot;David Holding&quot;</h3>
                             <div>
-                                One month intership in the company &quot;David Holding&quot;, 
+                                One month internship in the company &quot;David Holding&quot;, 
                                 located in the city Kazanlak.<br /> 
                                 There I was able to learn git and some vitable concepts 
                                 for managing software products.<br /> 
@@ -114,6 +114,13 @@ const Certification = () => {
                               HTML and CSS, SQL and working with SSMS and ASP.NET. <br />
                               After passing this course, I got a certificate for C# Programmer.
                             </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item period">
+                        <div className="timeline-info"></div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h2 className={styles.number}>2022</h2>
                         </div>
                     </li>
                 </ul>
