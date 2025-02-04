@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className={styles.menuContainer}>
             <div className={styles.socialMedia}>
                 <div className={styles.icon}>
-                        <Link className={styles.link} href="https://www.linkedin.com/in/s" target="_blank">
+                        <Link className={styles.link} href="https://www.linkedin.com/in/alex-alngelow-360977341" target="_blank">
                             <BsLinkedin />
                         </Link>
                 </div>
