@@ -6,6 +6,7 @@ const Education = () => {
         <div className={styles.educationContainer}>
             <div className={styles.line}></div>
             <div className={styles.title}>Education</div>
+            <div className={styles.line}></div>
             <div className={styles.education}>
                 <div className={styles.educationCard}>
                     <div className={styles.info}>
