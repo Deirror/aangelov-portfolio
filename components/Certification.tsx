@@ -276,7 +276,7 @@ const Certification = () => {
                         </div>
                     </li>
                 </ul>
-            
+                <div className={styles.lineEnd}></div>
             </div>
 
             <style jsx>{`

@@ -4,10 +4,7 @@ import styles from '../styles/Education.module.scss';
 const Education = () => {
     return (
         <div className={styles.educationContainer}>
-
-            <div className={styles.line}></div>
-            <div className={styles.line}></div>
-            <div className={styles.line}></div>
+            
             <div className={styles.title}>Education</div>
             <div className={styles.line}></div>
 
