@@ -5,12 +5,10 @@ const Education = () => {
     return (
         <div className={styles.educationContainer}>
 
-            <div className={styles.line}></div>
             <div className={styles.title}>Education</div>
             <div className={styles.line}></div>
 
             <div className={styles.education}>
-            <div className={styles.line}></div>
                 <div className={styles.educationCard}>
                     <div className={styles.info}>
                         <Link className={styles.link} href="https://www.uni-sofia.bg/index.php/bul" target="_blank">
