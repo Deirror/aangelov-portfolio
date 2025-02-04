@@ -9,7 +9,7 @@ const Certification = () => {
         const widthArray = ['95%', '92%', '100%', '96%', '90%', '95%'];
 
         const observer = new IntersectionObserver(entries => {
-            entries.forEach((entry, index) => {
+            entries.forEach((entry) => {
                 if (entry.isIntersecting && entry.target instanceof HTMLElement) {
                     entry.target.style.width = widthArray[Number(entry.target.dataset.index)];
                 };
