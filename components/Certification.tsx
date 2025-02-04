@@ -69,7 +69,12 @@ const Certification = () => {
                         <div className="timeline-content">
                             <h3 className={styles.custtitle}>Internship in the company &quot;David Holding&quot;</h3>
                             <div>
-                               ...
+                                One month intership in the company &quot;David Holding&quot;, 
+                                located in the city Kazanlak
+                                There I was able to learn git and some vitable concepts 
+                                for managing software products
+                                For passing this course, I made a website in ASP.NET 
+                                with Blazor Pages in C# which was about Library Managment System<br /> 
                             </div>
                         </div>
                     </li>
