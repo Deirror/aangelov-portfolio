@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <div className={styles.skillsContainer}>
             <div className={styles.line}></div>
-            <div className={styles.title}>Skills</div>
+            <div className={styles.title}>Skills and Tech Stack</div>
             <div className={styles.pitch}>
                 With a diverse set of skills ranging from data structures and algorithms to
                 project realization, I possess rich understanding in
@@ -15,9 +15,8 @@ const Skills = () => {
                 excellence in every undertaking, never settling for anything less.
                 My passion for programming, coupled with my commitment to
                 growth, pushes me forward, ready to conquer new frontiers and
-                make a lasting impact in the world of technology and science.
+                make a lasting impact in the world of technology.
             </div>
-            <div className={styles.title}>Tech Stack</div>
             <div className={styles.skillsCards}>
                 <SiJavascript
                     className={styles.card}
