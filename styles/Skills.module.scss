@@ -24,7 +24,7 @@
     }
 
     .skillsCards {
-        width: 70%; // Reduce width a bit for better spacing
+        width: 50%; // Reduce width a bit for better spacing
         display: grid;
         grid-template-columns: repeat(4, 1fr); // 5 cards per row
         grid-template-rows: repeat(3, auto); // Two rows
@@ -147,7 +147,7 @@
             grid-template-columns: repeat(4, 1fr); /* 5 icons per row */
             grid-template-rows: repeat(3, auto); /* 2 rows for 10 icons */
             gap: 1rem; /* Add spacing between the cards */
-            width: 90%; /* Adjust width as needed */
+            width: 60%; /* Adjust width as needed */
             margin: 0 auto; /* Center the grid */
         }
 
