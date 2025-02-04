@@ -26,180 +26,7 @@ const Certification = () => {
     return (
         <div className={styles.certificationContainer}>
           
-            <div style={{
-                marginLeft: '8.33333333%',
-                width: '83.33333333%',
-                float: 'left',
-                position: 'relative',
-                minHeight: '1px',
-                paddingRight: '15px',
-                paddingLeft: '15px',
-                marginTop: '4vh',
-                marginBottom: '1vh'
-            }}>
-                <div className={styles.title}>Certifications and courses</div>
-                <ul className="timeline timeline-split timeline-centered">
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2022 - March 2023</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Mathematics | Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
-                            <div>
-                                Attained deep understanding on complex fields
-                                of Mathematics such as Stereometry, Geometry,
-                                Differential Equations, Calculus and Probability <br />
-                                Thanks to the perfect guidance by the
-                                associate professors Yulian Tsankov and
-                                Nikolay Ivanov and my dedication to succeed,
-                                I managed to pass my exams in Mathematics 
-                                with flying colours <br />
-                                Established strong friendships with fellow
-                                colleagues to further pave my way to
-                                academic and career success
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item period">
-                        <div className="timeline-info"></div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h2 className="timeline-title">2022</h2>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>September 2022</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">JavaScript Advanced | Software University</h3>
-                            <div>
-                                Single Page Applications <br />
-                                Asynchronous Programming <br />
-                                Unit Testing and Error Handling | Mocha & Chai <br />
-                                DOM Manipulations and Events <br />
-                                Objects and Composition | Classes <br />
-                                Algorithms and Data Structures
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2021 - June 2022</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Teenovator 2022 | Voluntary Work</h3>
-                            <div>
-                                Orchestrated and streamlined our assignments,
-                                ensuring efficient coordination and seamless
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item period">
-                        <div className="timeline-info"></div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h2 className="timeline-title">2021</h2>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>May 2021</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Programming Fundamentals with JavaScript | Software University</h3>
-                            <div>
-                                Software Development Concepts <br />
-                                Associative and Advanced Arrays <br />
-                                Objects and Classes <br />
-                                Git and GitHub <br />
-                                Regular Expressions and Text Processing <br />
-                                QA Introduction <br />
-                                Basic Syntax, Conditional Statements and Loops
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2020 - June 2021</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Teenovator 2021</h3>
-                            <div>
-                                Attained broad understanding on the complex fields
-                                of marketing, SWAT analysis, business planning
-                                and financial projections during the
-                                development of startup projects
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>February 2021</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">News Media Literacy Training | American Councils</h3>
-                            <div>
-                                Trained on diverse topics such as disinformation
-                                and identification of untrustworthy sources
-                                of information <br />
-                                Emphasized on the hardly distinguishable
-                                characteristics of disinformation, fake news
-                                and propaganda <br />
-                                Exchanged experience with fellow students and
-                                developed friendships to further investigate
-                                the uncontrolled spread of fake news
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item period">
-                        <div className="timeline-info"></div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h2 className="timeline-title">2019 - 2020</h2>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2019 / June 2020</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Web Development | Telerik Academy School</h3>
-                            <div>
-                                JavaScript Syntax, Conditional Statements and Loops <br />
-                                React.js <br />
-                                HTML5, CSS3, SCSS <br />
-                                jQuery <br />
-                                DOM Manipulations and Events
-                            </div>
-                        </div>
-                    </li>
-                    <li className="timeline-item">
-                        <div className="timeline-info">
-                            <span>October 2018 - April 2019</span>
-                        </div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h3 className="timeline-title">Game Development | Telerik Academy School</h3>
-                            <div>
-                                JavaScript Syntax, Conditional Statements and Loops <br />
-                                Phaser.js and Node.js Server Setup <br />
-                                HTML5, CSS3
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <div className={styles.lineEnd}></div>
-            </div>
-
-            <style jsx>{`
+          <style jsx>{`
                 .timeline {
                     line-height: 1.4em;
                     list-style: none;
@@ -436,6 +263,179 @@ const Certification = () => {
                     }
                 }
             `}</style>
+          
+            <div style={{
+                marginLeft: '8.33333333%',
+                width: '83.33333333%',
+                float: 'left',
+                position: 'relative',
+                minHeight: '1px',
+                paddingRight: '15px',
+                paddingLeft: '15px',
+                marginTop: '4vh',
+                marginBottom: '1vh'
+            }}>
+                <div className={styles.title}>Certifications and courses</div>
+                <ul className="timeline timeline-split timeline-centered">
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>October 2022 - March 2023</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">Mathematics | Sofia University &quot;St. Kliment Ohridski&quot;, Faculty of Mathematics and Informatics</h3>
+                            <div>
+                                Attained deep understanding on complex fields
+                                of Mathematics such as Stereometry, Geometry,
+                                Differential Equations, Calculus and Probability <br />
+                                Thanks to the perfect guidance by the
+                                associate professors Yulian Tsankov and
+                                Nikolay Ivanov and my dedication to succeed,
+                                I managed to pass my exams in Mathematics 
+                                with flying colours <br />
+                                Established strong friendships with fellow
+                                colleagues to further pave my way to
+                                academic and career success
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item period">
+                        <div className="timeline-info"></div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h2 className="timeline-title">2022</h2>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>September 2022</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">JavaScript Advanced | Software University</h3>
+                            <div>
+                                Single Page Applications <br />
+                                Asynchronous Programming <br />
+                                Unit Testing and Error Handling | Mocha & Chai <br />
+                                DOM Manipulations and Events <br />
+                                Objects and Composition | Classes <br />
+                                Algorithms and Data Structures
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>October 2021 - June 2022</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">Teenovator 2022 | Voluntary Work</h3>
+                            <div>
+                                Orchestrated and streamlined our assignments,
+                                ensuring efficient coordination and seamless
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item period">
+                        <div className="timeline-info"></div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h2 className="timeline-title">2021</h2>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>May 2021</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">Programming Fundamentals with JavaScript | Software University</h3>
+                            <div>
+                                Software Development Concepts <br />
+                                Associative and Advanced Arrays <br />
+                                Objects and Classes <br />
+                                Git and GitHub <br />
+                                Regular Expressions and Text Processing <br />
+                                QA Introduction <br />
+                                Basic Syntax, Conditional Statements and Loops
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>October 2020 - June 2021</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">Teenovator 2021</h3>
+                            <div>
+                                Attained broad understanding on the complex fields
+                                of marketing, SWAT analysis, business planning
+                                and financial projections during the
+                                development of startup projects
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>February 2021</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">News Media Literacy Training | American Councils</h3>
+                            <div>
+                                Trained on diverse topics such as disinformation
+                                and identification of untrustworthy sources
+                                of information <br />
+                                Emphasized on the hardly distinguishable
+                                characteristics of disinformation, fake news
+                                and propaganda <br />
+                                Exchanged experience with fellow students and
+                                developed friendships to further investigate
+                                the uncontrolled spread of fake news
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item period">
+                        <div className="timeline-info"></div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h2 className="timeline-title">2019 - 2020</h2>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>October 2019 / June 2020</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">Web Development | Telerik Academy School</h3>
+                            <div>
+                                JavaScript Syntax, Conditional Statements and Loops <br />
+                                React.js <br />
+                                HTML5, CSS3, SCSS <br />
+                                jQuery <br />
+                                DOM Manipulations and Events
+                            </div>
+                        </div>
+                    </li>
+                    <li className="timeline-item">
+                        <div className="timeline-info">
+                            <span>October 2018 - April 2019</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className="timeline-title">Game Development | Telerik Academy School</h3>
+                            <div>
+                                JavaScript Syntax, Conditional Statements and Loops <br />
+                                Phaser.js and Node.js Server Setup <br />
+                                HTML5, CSS3
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div className={styles.lineEnd}></div>
+            </div>
         </div>
     );
 };
