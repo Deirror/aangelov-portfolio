@@ -116,13 +116,6 @@ const Certification = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="timeline-item period">
-                        <div className="timeline-info"></div>
-                        <div className="timeline-marker"></div>
-                        <div className="timeline-content">
-                            <h2 className={styles.number}>2022</h2>
-                        </div>
-                    </li>
                 </ul>
                 <div className={styles.lineEnd}></div>
             </div>
