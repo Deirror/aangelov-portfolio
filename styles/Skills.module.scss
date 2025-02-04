@@ -24,33 +24,41 @@
     }
 
     .skillsCards {
-        width: 90vw;
+        width: 80vw; // Reduce width a bit for better spacing
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 50% 50%;
+        grid-template-columns: repeat(5, 1fr); // 5 cards per row
+        grid-template-rows: repeat(2, auto); // Two rows
         grid-gap: 1rem;
         align-items: center;
         justify-items: center;
         justify-content: center;
         margin: 5vh auto;
-
+    
         .card {
-            box-sizing: unset;
-            padding: 3rem;
+            width: 100px; // Reduce size
+            height: 100px; // Keep a square shape
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: #33363c;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 10px; // Slightly rounded corners
+            padding: 1.5rem; // Adjusted padding
+    
             &::before {
                 content: "";
-                padding-bottom: 100%;
                 display: block;
+                padding-bottom: 100%;
             }
+    
             &:hover {
                 transform: perspective(1000px) scale3d(1.05, 1.05, 1.05);
-                transition: transform 500ms;
+                transition: transform 300ms;
             }
+    
             &:not(:hover) {
                 transform: perspective(1000px);
-                transition: transform 500ms;
+                transition: transform 300ms;
             }
         }
     }
@@ -68,12 +76,13 @@
 
         .skillsCards {
             display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 25% 25% 25% 25%;
+            grid-template-columns: repeat(2, 1fr); // 2 columns
+            grid-template-rows: repeat(5, auto); // 5 rows (for 10 cards)
+            gap: 1rem; // Add spacing for better UI
             margin-bottom: 10vh;
 
             .card {
-                padding: 1.5rem;
+                padding: 1.2rem; // Slightly reduce padding for smaller screens
             }
         }
     }
@@ -91,12 +100,13 @@
 
         .skillsCards {
             display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 25% 25% 25% 25%;
+            grid-template-columns: repeat(2, 1fr); // Keep 2 columns
+            grid-template-rows: repeat(5, auto); // Ensure all cards fit
+            gap: 1.2rem;
             margin-bottom: 10vh;
 
             .card {
-                padding: 2rem;
+                padding: 1.5rem;
             }
         }
     }
@@ -114,20 +124,15 @@
 
         .skillsCards {
             display: grid;
-            grid-template-columns: 33.333% 33.333% 33.333%;
-            grid-template-rows: 50% 50%;
+            grid-template-columns: repeat(3, 1fr); // 3 columns
+            grid-template-rows: repeat(4, auto); // 4 rows (for 10 cards)
+            gap: 1.5rem;
 
             .card {
-                padding: 2.1rem;
+                padding: 2rem;
             }
 
-            .card:nth-child(7) {
-                display: none;
-            }
-
-            .card:nth-child(8) {
-                display: none;
-            }
+            // REMOVE CARD HIDING - Ensure all 10 cards fit properly
         }
     }
 }
