@@ -168,7 +168,7 @@ const Certification = () => {
                     </li>
                     <li className="timeline-item">
                         <div className="timeline-info">
-                            <span>October 2019 - June 2020</span>
+                            <span>October 2019 / June 2020</span>
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
