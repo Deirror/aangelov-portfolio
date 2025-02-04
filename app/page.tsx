@@ -1,9 +1,7 @@
 import Home from '../components/Home';
 import Education from '../components/Education';
 import Skills from '../components/Skills';
-//import Certification from '../components/Certification.tsx';
-//import Featured from '../components/Featured.tsx';
-//import Contact from '../components/Contact.tsx';
+import Certification from '../components/Certification';
 import Footer from '../components/Footer';
 
 function App() {
@@ -11,7 +9,7 @@ function App() {
     <main>
       <Home />
       <Skills />
-
+      <Certification />
       <Education />
       <Footer />
     </main>
