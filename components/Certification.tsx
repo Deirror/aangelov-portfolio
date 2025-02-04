@@ -60,12 +60,22 @@ const Certification = () => {
                                 academic and career success
                             </div>
                         </div>
+                        <div className="timeline-info">
+                            <span>June 2023 - July 2023</span>
+                        </div>
+                        <div className="timeline-marker"></div>
+                        <div className="timeline-content">
+                            <h3 className={styles.custtitle}>Internship in the company &quot;David Holding&quot;</h3>
+                            <div>
+                               ...
+                            </div>
+                        </div>
                     </li>
                     <li className="timeline-item period">
                         <div className="timeline-info"></div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h2 className={styles.number}>2022</h2>
+                            <h2 className={styles.number}>2023</h2>
                         </div>
                     </li>
                     <li className="timeline-item">
