@@ -21,52 +21,52 @@ const Skills = () => {
                 <SiGo
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />
                 <SiHtmx
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />
                 <SiTailwindcss
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />
                 <SiDocker
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />    
                 <SiGooglecloud
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />     
                 <SiCplusplus
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />      
                 <SiDotnet
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />
                 <SiBlazor
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />    
                 <SiGit
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />
                 <SiOpenjdk
                     className={styles.card}
                     style={{
-                        fontSize: '4rem'
+                        fontSize: '5rem'
                     }} />    
             </div>
         </div>
