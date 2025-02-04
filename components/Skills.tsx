@@ -1,4 +1,4 @@
-import { SiGooglecloud, SiBlazor, SiGo, SiHtmx, SiTailwindcss, SiDotnet, SiCplusplus, SiGit, SiOpenjdk, SiDocker } from 'react-icons/si';
+import { SiSpring, SiPostgresql,SiGooglecloud, SiBlazor, SiGo, SiHtmx, SiTailwindcss, SiDotnet, SiCplusplus, SiGit, SiOpenjdk, SiDocker } from 'react-icons/si';
 import styles from '../styles/Skills.module.scss';
 
 const Skills = () => {
@@ -21,7 +21,7 @@ const Skills = () => {
                 <SiGo
                     className={styles.card}
                     style={{
-                        fontSize: '7rem'
+                        fontSize: '5rem'
                     }} />
                 <SiHtmx
                     className={styles.card}
@@ -38,6 +38,11 @@ const Skills = () => {
                     style={{
                         fontSize: '5rem'
                     }} />    
+                <SiPostgresql
+                    className={styles.card}
+                    style={{
+                        fontSize: '5rem'
+                    }} /> 
                 <SiGooglecloud
                     className={styles.card}
                     style={{
@@ -64,6 +69,11 @@ const Skills = () => {
                         fontSize: '5rem'
                     }} />
                 <SiOpenjdk
+                    className={styles.card}
+                    style={{
+                        fontSize: '5rem'
+                    }} />    
+                <SiSpring
                     className={styles.card}
                     style={{
                         fontSize: '5rem'
