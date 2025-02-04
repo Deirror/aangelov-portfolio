@@ -138,12 +138,12 @@
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1750px){
+@media screen and (min-width: 900px) and (max-width: 1750px){
     .skillsContainer {
         .skillsCards {
             display: grid;
-            grid-template-columns: repeat(5, 1fr); /* 5 icons per row */
-            grid-template-rows: repeat(2, auto); /* 2 rows for 10 icons */
+            grid-template-columns: repeat(4, 1fr); /* 5 icons per row */
+            grid-template-rows: repeat(3, auto); /* 2 rows for 10 icons */
             gap: 1rem; /* Add spacing between the cards */
             width: 90%; /* Adjust width as needed */
             margin: 0 auto; /* Center the grid */
