@@ -5,7 +5,7 @@
     align-items: center;
 
     .creator {
-        font-size: 10px;
+        font-size: 12px;
         justify-self: flex-start;
         margin-left: 4vw;
     }
@@ -23,12 +23,6 @@
         margin-right: 4vw;
         -webkit-tap-highlight-color: transparent;
         cursor: pointer;
-    }
-
-    .creator, .toTop {
-        font-size: 10px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
     }
 }
 
