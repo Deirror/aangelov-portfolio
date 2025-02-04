@@ -124,7 +124,7 @@
 
         .skillsCards {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); // 3 columns
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
             grid-template-rows: repeat(4, auto); // 4 rows (for 10 cards)
             gap: 1.5rem;
 
