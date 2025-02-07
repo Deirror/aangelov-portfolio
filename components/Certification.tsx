@@ -108,11 +108,11 @@ const Certification = () => {
                         </div>
                         <div className="timeline-marker"></div>
                         <div className="timeline-content">
-                            <h3 className={styles.custtitle}>ICT Center | C# Advanced Course</h3>
+                            <h3 className={styles.custtitle}>ICT Center | C# Course</h3>
                             <div>
-                              An one year course in Kazanlak for learning C# from Beginner to Advanced, 
+                              A one year course in Kazanlak for learning C# from Beginner to Advanced, 
                               HTML and CSS, SQL and working with SSMS and ASP.NET. <br />
-                              After passing this course, I got a certificate for C# Programmer.
+                              After passing this course, I got a testimony for C# Programmer.
                             </div>
                         </div>
                     </li>
