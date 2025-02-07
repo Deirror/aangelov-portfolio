@@ -12,7 +12,7 @@ const Home = () => {
                 <div className={styles.greeting}>Hello there! I&apos;m</div>
                 <div className={styles.name}>
                     <Typewriter
-                        words={['Software Engineer', 'Fullstack Developer', 'Go/Java Enthusiast', 'C/C++/C# Coder']}
+                        words={['Software Engineer', 'Backend Developer', 'Go/Java Enthusiast', 'C++/C# Coder']}
                         loop={0}
                         cursor
                         cursorStyle="|"
