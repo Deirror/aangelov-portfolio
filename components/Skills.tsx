@@ -18,7 +18,7 @@ const Skills = () => {
                 growth, pushes me forward, ready to conquer new frontiers and
                 make a lasting impact in the world of technology.
             </div>
-            <div className={styles.skillTitle}>Technologies I know or want ot learn</div>
+            <div className={styles.skillTitle}>Technologies I know or want to learn</div>
             <div className={styles.skillsCards}>
                 <SiGo
                     className={styles.card} />
