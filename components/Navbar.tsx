@@ -21,7 +21,7 @@ const Navbar = () => {
                         </Link>
                 </div>
             </div>
-                <Link href="/documents/CV.pdf"
+                <Link href="/documents/Resume.pdf"
                     download="Alex_Angelov_CV" className={styles.resume}>
                     <button className={styles.resumeButton}>Resume</button>
                 </Link>
