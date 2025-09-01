@@ -1,4 +1,4 @@
-import { SiVim, SiPostgresql,SiGooglecloud, SiBlazor, SiGo, SiHtmx, SiTailwindcss, SiDotnet, SiCplusplus, SiGit, SiOpenjdk, SiDocker, SiNextdotjs } from 'react-icons/si';
+import { SiVim, SiPostgresql,SiGooglecloud, SiGo, SiDotnet, SiCplusplus, SiGit, SiNextdotjs } from 'react-icons/si';
 import styles from '../styles/Skills.module.scss';
 
 const Skills = () => {
