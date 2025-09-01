@@ -1,4 +1,4 @@
-import { SiSpring, SiPostgresql,SiGooglecloud, SiBlazor, SiGo, SiHtmx, SiTailwindcss, SiDotnet, SiCplusplus, SiGit, SiOpenjdk, SiDocker } from 'react-icons/si';
+import { SiVim, SiPostgresql,SiGooglecloud, SiBlazor, SiGo, SiHtmx, SiTailwindcss, SiDotnet, SiCplusplus, SiGit, SiOpenjdk, SiDocker, SiNextdotjs } from 'react-icons/si';
 import styles from '../styles/Skills.module.scss';
 
 const Skills = () => {
@@ -18,32 +18,24 @@ const Skills = () => {
                 growth, pushes me forward, ready to conquer new frontiers and
                 make a lasting impact in the world of technology.
             </div>
-            <div className={styles.skillTitle}>Technologies I know or want to learn</div>
+            <div className={styles.skillTitle}>Technologies with which I have experience</div>
             <div className={styles.skillsCards}>
-                <SiGo
-                    className={styles.card} />
-                <SiHtmx
-                    className={styles.card}/>
-                <SiTailwindcss
-                    className={styles.card}/>
-                <SiDocker
-                    className={styles.card}/>    
-                <SiPostgresql
-                    className={styles.card}/> 
-                <SiGooglecloud
-                    className={styles.card}/>     
                 <SiCplusplus
                     className={styles.card}/>      
                 <SiDotnet
                     className={styles.card}/>
-                <SiBlazor
-                    className={styles.card}/>    
+                <SiGo
+                    className={styles.card} />
+                <SiNextdotjs
+                    className={styles.card}/>
+                <SiPostgresql
+                    className={styles.card}/> 
+                <SiGooglecloud
+                    className={styles.card}/>     
                 <SiGit
                     className={styles.card}/>
-                <SiOpenjdk
-                    className={styles.card}/>    
-                <SiSpring
-                    className={styles.card}/>    
+                <SiVim
+                    className={styles.card}/>
             </div>
         </div>
     );

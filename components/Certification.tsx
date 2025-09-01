@@ -27,7 +27,7 @@ const Certification = () => {
         <div className={styles.certificationContainer}>
             
             <div className={styles.line}></div>
-            <div className={styles.title}>Certifications and courses</div>
+            <div className={styles.title}>Certifications and experience</div>
 
             <div style={{
                 marginLeft: '8.33333333%',
@@ -69,12 +69,12 @@ const Certification = () => {
                         <div className="timeline-content">
                             <h3 className={styles.custtitle}>Internship in the company &quot;David Holding&quot;</h3>
                             <div>
-                                One month internship in the company &quot;David Holding&quot;, 
+                                Two month internship in the company &quot;David Holding&quot;, 
                                 located in the city Kazanlak.<br /> 
                                 There I was able to learn git and some vitable concepts 
                                 for managing software products.<br /> 
-                                For passing this course, I made a website in ASP.NET 
-                                with Blazor in C# which was about Library Managment System.<br /> 
+                                For passing this internship, I made a website in ASP.NET 
+                                with Razor Pages in C# which was about Library Managment System.<br /> 
                             </div>
                         </div>
                     </li>
@@ -93,11 +93,11 @@ const Certification = () => {
                         <div className="timeline-content">
                             <h3 className={styles.custtitle}>Systema Turismo | Arduino C++</h3>
                             <div>
-                                Two weeks Arduino course in Rimini, Italy<br />
+                                One month Arduino Internship on-site in Rimini, Italy<br />
                                 Learned basic concepts in C++<br />
                                 Learned how Arduino works<br />
                                 Wrote code for Arduino Board<br />
-                                Passed the course by creating a Arduino project for traffic light<br />
+                                Passed the internship by creating a Arduino project for traffic light<br />
                                 Recieved a certification for Arduino C++<br />
                             </div>
                         </div>
